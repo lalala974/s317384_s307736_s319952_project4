@@ -15,12 +15,19 @@ This code can be used to produce anomaly segmentation results on various anomaly
 python evalAnomaly.py --input '/home/shyam/ViT-Adapter/segmentation/unk-dataset/RoadAnomaly21/images/*.png'
 ```
 use command to define anomaly segmentation method
+
 **Examples:**
 ```
 -- method 'MSP'
 -- method 'MaxLogit'
 -- method 'MaxEntropy'
 -- method 'MSP_tem'
+```
+if choose the method MSP with temperature scaling, use command to define temperature
+
+**Examples:**
+```
+-- temperature '1'
 ```
 ## eval_cityscapes_color.py 
 
